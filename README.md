@@ -11,6 +11,7 @@ A simple site built with **Django** for posting articles.
   <figcaption>List of all articles</figcaption>
 </figure>
 
+<br>
 
 <figure>
   <img
