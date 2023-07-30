@@ -4,8 +4,7 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-  Hi {{ user.username }}! You are {{ user.age }} years old.
-  <p><a href="{% url 'logout' %}">Log Out</a></p>
+  Hi {{ user.username }}! Welcome to Articles Hub, click on the link below to see all the articles.<br><br>
   <p><a href="{% url 'article_list' %}">Articles</a></p>
 {% else %}
   <p>You are not logged in</p>
